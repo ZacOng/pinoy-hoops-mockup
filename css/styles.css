@@ -1,0 +1,232 @@
+body {
+  padding: 0;
+  position: relative;
+  margin: 0;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', sans-serif;
+}
+    
+.wrapper {
+  height: 100% !important;
+  margin: 0 auto; 
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #dc6a23;
+}
+
+.MenuContainerA ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: white;
+  overflow: hidden;
+  float: right;
+  font-size: 10pt
+}
+.MenuContainer {
+  display: inline-block;
+  float: left;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 15px 0;
+}
+
+.MenuContainer .logo img{
+  max-width: 120px;
+  float: left;
+  padding: 0 15px;
+}    
+
+.MenuContainer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  font-size: 10pt
+}
+.menu li{
+  float: left;
+  padding: 10px 15px;
+  display: inline-block;
+
+}    
+
+.menu li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    
+    text-decoration: none;
+}
+
+
+
+.main section.page1 {
+  background-image: url('../images/bg2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+}
+    
+.page_container .logo img{
+  display: block;
+  max-width: 450px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 13%;
+}
+
+.page_container .logo h4{
+  font-size: 18pt;
+  color: #fff;
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.SocialLogin{
+  text-align: center;
+  color: #fff;
+  margin: 80px 0;
+  position: relative;
+  padding: 0;
+}
+
+.SocialLogin span {
+  display: inline-block;
+  position: relative; 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12pt;
+}
+
+.SocialLogin span:before,
+.SocialLogin span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid white;
+  top: 10px;
+  width: 160px;
+}
+
+.SocialLogin span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.SocialLogin span:after {
+  left: 100%;
+  margin-left: 15px;
+}
+
+.SocialLogin li{
+  list-style-type: none;
+  font-size: 10pt;
+  color: white;
+  border-radius: 30pt;
+  display: inline-block;
+  padding: 5px 0;
+  margin: 10px 5px;
+  width: 140px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.SocialLogin p{
+  margin: 0;
+  font-size: 10pt;
+}
+
+.SocialLogin p a{
+  color: #51BBFE;
+}
+
+.main section.page2 {
+  background: #333;
+}
+
+#map{
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0; 
+}
+    
+.main section.page3 {
+  background:#f3f3f3;
+}
+
+.about {
+  margin: 0 50px;
+  top:8%;
+  display: inline-block;
+  position: absolute;
+
+}
+.about h2{
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22pt;
+}
+    
+
+.AboutGallery {
+  max-width: 60%;
+  display: inline-block;
+  float: left;
+}
+
+.AboutGallery li{
+  float: left;
+  list-style-type: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.AboutGallery img{
+  max-width: 220px;
+  float: left;
+  padding: 5px;
+  display: block;
+    margin: 0 auto;
+  text-align: center;
+}
+
+.AboutText {
+  max-width: 40%;
+  float: left;
+}
+.AboutText p{
+  font-size: 10pt;
+  font-weight: 300;
+  line-height: 16pt;
+  margin: 0;
+}
